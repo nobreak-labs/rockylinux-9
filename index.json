@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "nobreak-labs/rockylinux-9",
+  "latest": "9.8-20260907.1",
+  "versions": [
+    {
+      "version": "9.8-20260907.1",
+      "os_version": "9.8",
+      "released_at": "2026-09-07T03:43:36Z"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "name": "nobreak-labs/rockylinux-9",
+  "version": "9.8-20260907.1",
+  "os": {
+    "name": "rockylinux",
+    "series": "9",
+    "version": "9.8"
+  },
+  "provider": "vmware_desktop",
+  "builder": {
+    "repository": "nobreak-labs/vm-image-builder",
+    "commit": "73e8bacb2eeb80795d8c9c5004cbb14042bc681f",
+    "packer_version": "1.16.0",
+    "vmware_plugin_version": "2.1.6"
+  },
+  "created_at": "2026-09-07T03:43:36Z",
+  "artifacts": [
+    {
+      "architecture": "amd64",
+      "filename": "rockylinux-9.8-20260907.1-vmware-desktop-amd64.tar.gz",
+      "url": "https://github.com/nobreak-labs/rockylinux-9/releases/download/9.8-20260907.1/rockylinux-9.8-20260907.1-vmware-desktop-amd64.tar.gz",
+      "format": "tar.gz",
+      "size": 798987869,
+      "sha256": "d9d2f6907af1809675b45cd3d02828c2404349f16270fc99fb87cbae983fa003",
+      "built_at": "2026-09-07T03:12:56Z",
+      "source_iso": {
+        "url": "https://ftp.kaist.ac.kr/rocky-linux/9/isos/x86_64/Rocky-9.8-x86_64-dvd.iso",
+        "checksum_source": "file:https://ftp.kaist.ac.kr/rocky-linux/9/isos/x86_64/CHECKSUM"
+      }
+    },
+    {
+      "architecture": "arm64",
+      "filename": "rockylinux-9.8-20260907.1-vmware-desktop-arm64.tar.gz",
+      "url": "https://github.com/nobreak-labs/rockylinux-9/releases/download/9.8-20260907.1/rockylinux-9.8-20260907.1-vmware-desktop-arm64.tar.gz",
+      "format": "tar.gz",
+      "size": 717169016,
+      "sha256": "dd2db5f8ece0e436622ff3930b5c5132c2d694e22187d55d4f594baab5d06054",
+      "built_at": "2026-09-07T01:02:34Z",
+      "source_iso": {
+        "url": "https://ftp.kaist.ac.kr/rocky-linux/9/isos/aarch64/Rocky-9.8-aarch64-dvd.iso",
+        "checksum_source": "file:https://ftp.kaist.ac.kr/rocky-linux/9/isos/aarch64/CHECKSUM"
+      }
+    }
+  ]
+}
